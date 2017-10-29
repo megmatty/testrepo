@@ -12,7 +12,7 @@ for d in {1..10}; do
 
   echo $number > $localPATH/hi.html
   git -C $localPATH/ add . 
-  git -C $localPATH/ commit -m 'hardyharhar'
+  git -C $localPATH/ commit -m 'These commits represent all the green boxes Github does not count when I push to a branch'
   git -C $localPATH/ push
 
   sleep 10  # or sleep +3m
